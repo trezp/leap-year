@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Leap year detector</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--LEAP YEAR DETECTOR -->
+      <div class="leap-year-detector">
+        <h2>Leap year detector</h2>
+        <form id="leap-year">
+          <div class="form-group">
+            <label for="year">Enter a year and find out if it's a leap year:</label>
+            <input id="year" type="text">
+          </div>
+
+          <button type="submit" class="btn">Find out!</button>
+        </form>
+
+        <div id="result">
+          <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+        </div>
+      </div>
+
+      <!-- TRIANGLE TRACKER -->
+      <div class="triangle-tracker">
+      <h2>What kind of triangle?</h2>
+      <h4>Please enter the length of the sides of your triangle.</h4>
+      <form action="" id="triangle">
+        <div class="form-group">
+          <label for="side1">Side 1</label>
+          <input type="text" id="side1">
+          <label for="side2">Side 2</label>
+          <input type="text" id="side2">
+          <label for="side3">Side 3</label>
+          <input type="text" id="side3">
+          <button type="submit" class="btn">What kind of triangle?</button>
+        </div>
+        <div id="triangleDiv"><span id="triangleType"></span></div>
+      </form>
+      </div>
+      <!-- FACTORIALS -->
+      <div class="factorial">
+        <h2>Computing Factorials</h2>
+        <h4>Enter a number to compute its factorial:</h4>
+        <form action="" id="factorialForm">
+          <div class="form-group">
+            <label for="factorialNumber">Your number:</label>
+            <input type="text" id="factorialEntry">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#result {
+	display: none;
+}
+
+#triangleDiv {
+	display: none;
+}
+
+h2 {
+	color: purple;
+}
+
+.btn {
+	background-color: purple;
+	color: white;
+	border: solid 1px black;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.leap-year-detector {
+	padding: 30px 0;
+}
